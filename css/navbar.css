@@ -1,0 +1,85 @@
+body{
+    margin: auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px silver solid;
+    padding: 0.3rem 0.5rem;
+    background-color: rgb(230, 227, 227);
+}
+
+.navbar-left{
+    display: flex;
+    width: 40%;
+    gap: 0.5rem;
+}
+
+.navbar-left img {
+    cursor: pointer;
+    max-width: 3rem;
+}
+
+.search-container{
+    display: flex;
+    flex: 1;
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.search-container > input {
+    flex: 1;
+    height: 2rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 460px) {
+    .search-container > input {
+        width: 100px;
+    }
+}
+
+.search-container > i {
+    cursor: pointer;
+    position: absolute;
+    right: 4px;
+    top: 20%;
+}
+
+.navbar-right{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.bell-pic{
+    color: black;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.profile-pic{
+    height: 2rem;
+    width: 2rem;
+}
+
+.profile-pic > img {
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    border-radius: 4rem;
+}
+
+.create-post{
+    cursor: pointer;
+    color: blueviolet;
+    border: blueviolet 1px solid;
+    background-color: transparent;
+    border-radius: 5px;
+}

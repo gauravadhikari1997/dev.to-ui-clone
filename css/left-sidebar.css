@@ -1,0 +1,54 @@
+.left-sidebar{
+    padding: 1rem;
+}
+
+.left-sidebar ul{
+    list-style: none;
+    padding: 0 0.75rem;
+    margin-bottom: 2rem;
+}
+
+.left-sidebar ul li{
+    padding: 0.5rem;
+}
+
+.left-sidebar ul li:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.left-sidebar ul li i {
+    padding-right: 0.75rem;
+}
+
+.social-icons{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-tags{
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tags-list{
+    height: 8rem;
+    overflow-y: scroll;
+}
+
+.community-card{
+    color: white;
+    background-color: rgb(82, 79, 79);
+    border-radius: 5px;
+    margin: 0.275rem;
+    padding: 0.75rem;
+}
+
+.community-card img{
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 0.375rem;
+}

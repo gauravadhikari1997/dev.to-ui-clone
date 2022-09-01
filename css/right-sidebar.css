@@ -1,0 +1,48 @@
+.right-sidebar {
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+
+.hackathon-card {
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: rgb(23, 23, 23);
+}
+
+.hackathon-card .title {
+    padding-left: 0.5rem;
+}
+
+.hackathon-card img {
+    width: 100%;
+}
+
+.hackathon-card div {
+    border-top: 1px silver solid;
+    padding: 0.5rem;
+    color: rgb(107, 103, 103);
+}
+
+.hackathon-buttons-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.submit-project-button {
+    color: white;
+    border-radius: 5px;
+    padding: 0.5rem;
+    cursor: pointer;
+    width: 100%;
+    background-color: purple;
+}
+
+.see-posts-button {
+    color: white;
+    border-radius: 5px;
+    padding: 0.5rem;
+    cursor: pointer;
+    width: 100%;
+    background-color: rgb(107, 103, 103);
+}

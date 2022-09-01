@@ -1,0 +1,42 @@
+body{
+    color: white;
+    background-color: black;
+    font-size: 1rem;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 25% 45% 25%;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 660px) {
+    .content {
+        grid-column: 1 / span 3;
+        grid-row: 2;
+    }
+    .left-sidebar {
+        grid-column: 1 / span 3;
+    }
+    .right-sidebar {
+        grid-column: 1 / span 3;
+    }
+  }
+
+.navbar {
+    grid-column: 1 / span 3;
+}
+
+.footer {
+    text-align: center;
+    grid-column: 1 / span 3;
+}
+
+
+button:hover {
+    opacity: 0.8;
+}
+
+a {
+    text-decoration: none;
+}

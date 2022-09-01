@@ -1,0 +1,135 @@
+.tabs {
+    margin: 2rem 1rem;
+}
+
+.tab-item {
+    cursor: pointer;
+    font-size: 1.15rem;
+    padding-right: 2rem;
+}
+
+.tab-item.active {
+    font-weight: 700;
+}
+
+.post-card{
+    background-color: rgb(23, 23, 23);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    margin: 0.5rem;
+}
+
+.post-card > img {
+    width: 100%;
+}
+
+.post-card-details {
+    padding: 1rem;
+    display: flex;
+}
+
+.post-card-details span {
+    color: gray;
+    font-size: 0.8rem;
+}
+
+.post-card-details > img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 2rem;
+    margin-right: 0.5rem;
+}
+
+.post-tags {
+    padding: 0;
+    list-style: none;
+}
+
+.post-tags li {
+    padding-right: 0.5rem;
+    display: inline;
+}
+
+.buttons-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons-container .save-button{
+    background-color: rgb(90, 89, 89);
+}
+
+.buttons-container .save-button:hov{
+    background-color: rgb(90, 89, 89);
+}
+
+.post-card-details button {
+    padding: 0.5rem;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+}
+
+.post-card-details button:hover {
+    background-color: rgb(90, 89, 89);
+}
+
+.tooltip-container {
+    position: relative;
+    width: 50%;
+}
+
+.tooltip-container .follow-button {
+    width: 100%;
+    background-color: purple;
+}
+
+.tooltip-container .follow-button:hover {
+    background-color: purple;
+}
+
+.tooltip-content img {
+    width: 2rem;
+    border-radius: 2rem;
+}
+
+.tooltip-container .tooltip-content {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    visibility: hidden;
+    background-color: rgb(90, 89, 89);
+    color: #fff;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    margin-left: -60px;
+    
+    /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+  .tooltip-container:hover .tooltip-content {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 5px;
+  }
+
+  .profile-header span {
+    color: white;
+    font-size: 1.1rem;
+    align-content: center;
+  }
